@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sum\" />
+    <None Remove="Exceptions\" />
+    <None Remove="AliceBobGame\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sum\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="AliceBobGame\" />
+  </ItemGroup>
+</Project>
