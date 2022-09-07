@@ -4,7 +4,7 @@ using Algorithms.Sum;
 Console.WriteLine("Hello, World!");
 
 
-int[,] Input = new int[,] { { 11, 2, 4 }, { 4, 5,6}, { 10, 8, -12 } };
+/*int[,] Input = new int[,] { { 11, 2, 4 }, { 4, 5,6}, { 10, 8, -12 } };
 
 int[] resultRight = new int[Input.GetLength(0)];
 int[] resultLeft = new int[Input.GetLength(0)];
@@ -24,7 +24,7 @@ for (int i = 0; i <= index; i++)
 var result = left - right;
 
 Console.WriteLine(resultRight);
-Console.WriteLine(resultLeft);
+Console.WriteLine(resultLeft);*/
 
 
 
