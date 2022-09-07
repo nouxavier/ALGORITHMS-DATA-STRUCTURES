@@ -11,10 +11,12 @@
     <None Remove="Sum\" />
     <None Remove="Exceptions\" />
     <None Remove="AliceBobGame\" />
+    <None Remove="Matrix\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
     <Folder Include="Exceptions\" />
     <Folder Include="AliceBobGame\" />
+    <Folder Include="Matrix\" />
   </ItemGroup>
 </Project>

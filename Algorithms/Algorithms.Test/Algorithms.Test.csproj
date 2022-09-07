@@ -26,10 +26,12 @@
     <None Remove="Sum\" />
     <None Remove="ExpectedObjects" />
     <None Remove="AliceBobGame\" />
+    <None Remove="Matrix\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
     <Folder Include="AliceBobGame\" />
+    <Folder Include="Matrix\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj" />
