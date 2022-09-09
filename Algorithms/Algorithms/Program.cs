@@ -1,9 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Algorithms.Sum;
 
-Console.WriteLine("Hello, World!");
-
-
 /*int[,] Input = new int[,] { { 11, 2, 4 }, { 4, 5,6}, { 10, 8, -12 } };
 
 int[] resultRight = new int[Input.GetLength(0)];
@@ -26,5 +23,25 @@ var result = left - right;
 Console.WriteLine(resultRight);
 Console.WriteLine(resultLeft);*/
 
+int[] Input = new int[] { 1, 3, 5, 7, 9 };
+long min = Input[0];
+long max = Input[0];
+long sum = 0;
+for (int i = 0; i <= Input.Length - 1; i++)
+{
 
+    if (min > Input[i])
+        min = Input[i];
 
+    if (max < Input[i])
+        max = Input[i];
+
+    sum += Input[i];
+}
+
+Console.Write("{0} {1}", (sum - max), (sum - min));
+        
+
+Console.Write("{0} {1}", min, max);
+
+Console.ReadKey();

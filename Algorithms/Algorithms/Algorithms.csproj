@@ -12,11 +12,15 @@
     <None Remove="Exceptions\" />
     <None Remove="AliceBobGame\" />
     <None Remove="Matrix\" />
+    <None Remove="Birthday\" />
+    <None Remove="Time\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
     <Folder Include="Exceptions\" />
     <Folder Include="AliceBobGame\" />
     <Folder Include="Matrix\" />
+    <Folder Include="Birthday\" />
+    <Folder Include="Time\" />
   </ItemGroup>
 </Project>
