@@ -14,6 +14,7 @@
     <None Remove="Matrix\" />
     <None Remove="Birthday\" />
     <None Remove="Time\" />
+    <None Remove="Sort\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
@@ -22,5 +23,6 @@
     <Folder Include="Matrix\" />
     <Folder Include="Birthday\" />
     <Folder Include="Time\" />
+    <Folder Include="Sort\" />
   </ItemGroup>
 </Project>

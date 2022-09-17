@@ -59,7 +59,7 @@ namespace Algorithms.Time
             bool convertion = DateTime.TryParse(TimeInput, out DateTime time);
 
             if(!convertion)
-                new DomainException(MSG_SIZE);
+                throw new DomainException(MSG_SIZE);
 
             return time.ToString("HH:mm:ss");
         }

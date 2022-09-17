@@ -29,6 +29,7 @@
     <None Remove="Matrix\" />
     <None Remove="MinMaxSum\" />
     <None Remove="Time\" />
+    <None Remove="Sort\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
@@ -36,6 +37,7 @@
     <Folder Include="Matrix\" />
     <Folder Include="MinMaxSum\" />
     <Folder Include="Time\" />
+    <Folder Include="Sort\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj" />
