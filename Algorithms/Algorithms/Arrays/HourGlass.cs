@@ -21,8 +21,8 @@ namespace Algorithms.Arrays
         public int Sum()
         {
             int[,] aux = new int[4, 4];
-            int max = Input[0, 0];
-            for(int stepLine = 0; stepLine < 4; stepLine++)
+            int max = -2147483648;
+            for (int stepLine = 0; stepLine < 4; stepLine++)
             {
                 int[] sum = new int[3] {0,0,0};
                 for(int stepCol = 0; stepCol < 4; stepCol++)
