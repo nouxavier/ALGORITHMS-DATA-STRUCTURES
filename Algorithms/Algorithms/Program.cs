@@ -50,7 +50,7 @@ Console.Write("{0} {1}", min, max);
 Console.ReadKey();*/
 
 
-var input = new string[] { "6", "31415926535897932384626433832795", "1", "3", "10", "3", "5" };
+//var input = new string[] { "6", "31415926535897932384626433832795", "1", "3", "10", "3", "5" };
 
 
 
@@ -105,7 +105,7 @@ for (int j = 0; j < size-1; j++)
 };
 
 Console.ReadKey();*/
-var a = new string[] { "6", "31415926535897932384626433832795", "1", "3", "10", "3", "5" };
+/*var a = new string[] { "6", "31415926535897932384626433832795", "1", "3", "10", "3", "5" };
 Array.Sort(a, (left, right) => {
     if (left.Length != right.Length)
         return left.Length - right.Length;
@@ -127,4 +127,82 @@ l.Sort((left, right) => {
 for (int i = 0; i < l.Count; i++)
     Console.WriteLine(l[i]);
 
+Console.ReadKey();*/
+int[] arr2 = { -5, -10, 0, -3, 8, 5, -1, 10 };
+Algorithms.Sort.QuickSort.CountSort(arr2);
+Algorithms.Sort.QuickSort.printArray(arr2);
+int n = Convert.ToInt32(Console.ReadLine().Trim());
+
+List<List<string>> arr = new List<List<string>>();
+
+for (int i = 0; i < n; i++)
+{
+    var a = Console.ReadLine().TrimEnd().Split(' ').ToList();
+    arr.Add(Console.ReadLine().TrimEnd().Split(' ').ToList());
+}
+
+
+int[] Input = new int[] { 1,4,3,5,6,2 };
+//int[] A = new int[] { 4, 1, 3, 5, 6, 2 };
+int[] A = new int[] { 2, 1, 3, 1, 2 };
+
+var j = 0;
+var s = 0;
+for (var i = 1; i < A.Length; i++)
+{
+    var value = A[i];
+    j = i - 1;
+    while (j >= 0 && value < A[j])
+    {
+        A[j + 1] = A[j];
+        j = j - 1;
+        s = s + 1;
+    }
+    A[j + 1] = value;
+}
+Console.WriteLine(string.Join(" ", A));
+
+
+int size = Input.Length;
+int val = Input[0];
+for (int i = 1; i <= size-1; i++)
+{
+    val = Input[i];   
+    for ( j = i - 1; (j >=0) ; j--)
+    {
+        var v2 = Input[j];
+
+        if (val < v2)
+        {
+            Input[j + 1] = Input[j];
+            Input[j] = val;
+        }
+    }
+    Console.WriteLine("{0}", string.Join(" ", Input));
+}
+
+
+
+
+
+
+
+for (int i = Input.Length - 1; i > 0; i--)
+{
+    val = Input[i];
+    for ( j = i - 1; j >= 0; j--)
+    {
+        var v2 = Input[j];
+        if (v2 > val)
+        {
+            Input[j + 1] = Input[j];
+            Console.WriteLine("[{0}]", string.Join(" ", Input));
+            Input[j] = val;
+        }
+            
+    }
+
+}
+Console.WriteLine("[{0}]", string.Join(" ", Input));
 Console.ReadKey();
+
