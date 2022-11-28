@@ -15,6 +15,11 @@
     <None Remove="Birthday\" />
     <None Remove="Time\" />
     <None Remove="Sort\" />
+    <None Remove="LinkedList\" />
+    <None Remove="Search\" />
+    <None Remove="Tree\" />
+    <None Remove="Queue\" />
+    <None Remove="Heap\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
@@ -24,5 +29,10 @@
     <Folder Include="Birthday\" />
     <Folder Include="Time\" />
     <Folder Include="Sort\" />
+    <Folder Include="LinkedList\" />
+    <Folder Include="Search\" />
+    <Folder Include="Tree\" />
+    <Folder Include="Queue\" />
+    <Folder Include="Heap\" />
   </ItemGroup>
 </Project>

@@ -31,6 +31,10 @@
     <None Remove="Time\" />
     <None Remove="Sort\" />
     <None Remove="Arrays\" />
+    <None Remove="LinkedList\" />
+    <None Remove="Search\" />
+    <None Remove="Tree\" />
+    <None Remove="Heap\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
@@ -40,6 +44,10 @@
     <Folder Include="Time\" />
     <Folder Include="Sort\" />
     <Folder Include="Arrays\" />
+    <Folder Include="LinkedList\" />
+    <Folder Include="Search\" />
+    <Folder Include="Tree\" />
+    <Folder Include="Heap\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj" />

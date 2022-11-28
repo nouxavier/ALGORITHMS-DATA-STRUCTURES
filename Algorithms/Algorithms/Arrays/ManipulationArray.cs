@@ -70,9 +70,9 @@ namespace Algorithms.Arrays
 
             for (int i = 0; i < m; i++)
             {
-                a = Queries[i, 0];
-                b = Queries[i, 1];
-                k = Queries[i, 2];
+                a = queries[i][0];
+                b = queries[i][1];
+                k = queries[i][2];
 
                 aux[a] += k;
                 aux[b + 1] -= k;

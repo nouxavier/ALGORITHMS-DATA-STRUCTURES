@@ -5,6 +5,7 @@ namespace Algorithms.Arrays
     {
         public ArrayOfArrayProducts()
         {
+
         }
       
 
@@ -22,7 +23,6 @@ namespace Algorithms.Arrays
                 {
                     if(j != i)
                     {
-                        var teste = answer[i] * arr[j];
                         answer[i] = answer[i] * arr[j];
                     }
                 }
