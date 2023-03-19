@@ -3,10 +3,14 @@ using System;
 using System.Diagnostics;
 using System.Numerics;
 using Algorithms.Exceptions;
+using Algorithms;
 using Algorithms.Heap;
 using Algorithms.LinkedList;
 using Algorithms.Sum;
 using Algorithms.Tree;
+using Algorithms.Sort;
+using Algorithms.Search;
+using Algorithms.DynamicProgramming;
 
 /*int[,] Input = new int[,] { { 11, 2, 4 }, { 4, 5,6}, { 10, 8, -12 } };
 
@@ -427,7 +431,7 @@ for (int i = 1; i <size; i++)
 
 }*/
 
-int[] values = new int[] {61, 89, 66, 43, 51, 16, 55, 11, 79, 77, 82, 32};
+/*int[] values = new int[] {61, 89, 66, 43, 51, 16, 55, 11, 79, 77, 82, 32};
 
 var bst = new BinarySearchTree();
 foreach (var value in values)
@@ -451,8 +455,32 @@ int min = bst.Min();
 Console.WriteLine(min);
 
 int max = bst.Max();
-Console.WriteLine(max);
+Console.WriteLine(max);*/
 
+
+/*Graphs g = new Graphs(4);
+
+g.AddEdge(0, 1);
+g.AddEdge(0, 2);
+g.AddEdge(1, 2);
+g.AddEdge(2, 0);
+g.AddEdge(2, 3);
+g.AddEdge(3, 3);*/
+
+/*List<int> inputs = new List<int> { 61, 89, 66, 43, 51, 16, 55, 11, 79, 77, 82, 32 };
+Console.WriteLine("Input> [{0}]", string.Join(", ", inputs));
+var teste = QuickSort2.Sort(inputs, 0, inputs.Count - 1);*/
+
+/*int[] input = new int[] { 3, 1, 3, 4, 2 };
+
+/*var result = Duplicate.SearchDuplicate(input, 0, input.Length-1);
+
+var nums = new int[]{5, 7, 7, 8, 8,8, 10};
+int target = 8;
+var result = FirstLastPosition.SearchRange(nums, target);*/
+
+//Anagrams.IsAnagram("rat", "car");
+Anagrams.IsAnagram("anagram", "nagaram");
 Console.ReadKey();
 
 

@@ -17,7 +17,7 @@ namespace Algorithms.Search
                 if (item < ints[midle])
                     return SearchIndex(ints, item, begin, midle - 1);
                 else
-                    return SearchIndex(ints, item, midle - 1, end);
+                    return SearchIndex(ints, item, midle +1, end);
             }
 
             return null;

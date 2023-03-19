@@ -35,6 +35,8 @@
     <None Remove="Search\" />
     <None Remove="Tree\" />
     <None Remove="Heap\" />
+    <None Remove="Graph\" />
+    <None Remove="Hash\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
@@ -48,6 +50,8 @@
     <Folder Include="Search\" />
     <Folder Include="Tree\" />
     <Folder Include="Heap\" />
+    <Folder Include="Graph\" />
+    <Folder Include="Hash\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj" />

@@ -77,7 +77,7 @@ namespace Algorithms.Tree
 
         }
 
-        public int Height(Node node = null)
+        public  int Height(Node node = null)
         {
             var hLeft = 0;
             var hRight = 0;
@@ -113,6 +113,28 @@ namespace Algorithms.Tree
 
                 Console.WriteLine(node.DataInt);
             }
+        }
+        public static List<int> BreathFirstSearch(Node currentNode)
+        {
+            List<int> list = new List<int>();
+            Queue<Node> queue = new Queue<Node>();
+            queue.Enqueue(currentNode);
+
+            while (queue.Count > 0)
+            {
+                currentNode = queue.Dequeue();
+                list.Add(currentNode.DataInt);
+                if (currentNode.Left != null)
+                {
+                    queue.Enqueue(currentNode.Left);
+                }
+
+                if (currentNode.Right != null)
+                {
+                    queue.Enqueue(currentNode.Right);
+                }
+            }
+            return list;
         }
 
         public int[] Print(int[] datas)

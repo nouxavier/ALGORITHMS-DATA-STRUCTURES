@@ -20,6 +20,10 @@
     <None Remove="Tree\" />
     <None Remove="Queue\" />
     <None Remove="Heap\" />
+    <None Remove="Graph\" />
+    <None Remove="MaxElement\" />
+    <None Remove="Hash\" />
+    <None Remove="DynamicProgramming\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sum\" />
@@ -34,5 +38,9 @@
     <Folder Include="Tree\" />
     <Folder Include="Queue\" />
     <Folder Include="Heap\" />
+    <Folder Include="Graph\" />
+    <Folder Include="MaxElement\" />
+    <Folder Include="Hash\" />
+    <Folder Include="DynamicProgramming\" />
   </ItemGroup>
 </Project>
